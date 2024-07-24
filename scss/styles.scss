@@ -31,17 +31,17 @@ ul {
 }
 
 .navbar-bk {
-    background: greenyellow;
+    background: rgb(1, 136, 77);
 }
 
 .middle-banner-bk {
-    background: greenyellow;
+    background: rgb(1, 136, 77);
     color: #fff;
 }
 
 .navbar ul li a:hover,
 .navbar ul li a.active {
-    color: violet;
+    color: rgb(89, 89, 89);
 }
 
 ::placeholder {
@@ -75,12 +75,15 @@ form {
         width: 100%;
         background: #000;
         color: #fff;
+        margin-bottom: 1rem;
     }
 }
 
 .btn {
     display: block;
     padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
@@ -92,10 +95,19 @@ form {
     width: fit-content;
 }
 
+.btn-1:hover {
+    background: rgba(0, 128, 0, 0.624);
+}
+
 .btn-2 {
     background: #ffffff;
     color: #000;
     width: fit-content;
+}
+
+.btn-2:hover {
+    background: rgba(2, 179, 2, 0.712);
+    color: #fff;
 }
 
 .btn-3 {
@@ -103,30 +115,37 @@ form {
     color: #fff;
 }
 
+.btn-3:hover {
+    background: #00000077;
+}
+
 .title {
     font-size: 2rem;
     text-align: center;
     font-weight: 300;
     margin: 3rem 0;
+    text-transform: capitalize;
 }
 
 .subtitle {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 500;
     margin: 1.5rem 0;
 }
 
 //mainheader
 #mainheader {
     .navbar {
-        .logo {
-            width: 100px;
-        }
-        ul {
-            margin: 2rem 0;
-            display: flex;
+            .logo {
+             
+                margin: 2rem 0;
+            }
+            ul {
+                margin-top: 2rem;
+                display: flex;
+            }
             li {
-                text-align: center;
+                display: inline-block;
                 margin-left: 1rem;
             }
             .container {
@@ -134,7 +153,6 @@ form {
                 justify-content: space-between;
                 width: 100%;
             }
-        }
     }
 }
 
@@ -145,6 +163,29 @@ form {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    .showcase-content {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 15rem;
+        h3 {
+            font-size: 2rem;
+            font-weight: 300;
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 5rem;
+            color: #fff;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1rem;
+            font-weight: 300;
+            color: #fff;
+            margin-bottom: 2rem;
+        }
+    }
 }
 
 //features
@@ -152,11 +193,30 @@ form {
     .container {
         .features-row {
             .flexbox-1 {
-                .flexbox-1-content {
+                .fas {
+                    margin-top: 1rem;
+                    color: rgb(1, 136, 77);
+                }
+                p {
+                    line-height: 30px;
+                }
+                .flexbox-1-content, .flexbox-3-content {
                     .fas {
                         width: 150px;
                     }
+                    h2,p {
+                        text-align: right;
+                    }
                 }
+                .flexbox-2-content, .flexbox-4-content {
+                    .fas {
+                        width: 150px;
+                    }
+                    h2,p {
+                        text-align: left;
+                    }
+                }
+
             }
         }
     }
@@ -164,22 +224,30 @@ form {
 
 //middle-banner
 #middle-banner {
-    .container {
         .middle-banner-flex {
             color: #fff;
-            flex: 100px;
-        }
+            padding: 3rem 3rem;
+            gap: 400px;
+    .end-button {
+        justify-content: end;
+        text-align: end;
     }
+        }
+    margin: 3rem 0;
 }
 
 //about
 #about {
     width: 90%;
     margin: 0 auto;
+    padding-bottom: 2rem;
     .container {
         .about-flex {
             img {
                 width: 50%;
+            }
+            p {
+                line-height: 30px;
             }
         }
     }
@@ -187,6 +255,8 @@ form {
 
 //contact
 #contact {
+    width: 70%;
+    margin: 0 auto;
     .flexbox {
         flex: 1;
     }

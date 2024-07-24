@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: auto;
+}
+
+.navbar-bk {
+  background: rgb(1, 136, 77);
+}
+
+.middle-banner-bk {
+  background: rgb(1, 136, 77);
+  color: #fff;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: rgb(89, 89, 89);
+}
+
+::-moz-placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 30px;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  border-radius: 5px;
+}
+form button {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-1 {
+  background: green;
+  color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.btn-1:hover {
+  background: rgba(0, 128, 0, 0.624);
+}
+
+.btn-2 {
+  background: #ffffff;
+  color: #000;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.btn-2:hover {
+  background: rgba(2, 179, 2, 0.712);
+  color: #fff;
+}
+
+.btn-3 {
+  background: #000;
+  color: #fff;
+}
+
+.btn-3:hover {
+  background: rgba(0, 0, 0, 0.4666666667);
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 300;
+  margin: 3rem 0;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 1.5rem 0;
+}
+
+#mainheader .navbar .logo {
+  margin: 2rem 0;
+}
+#mainheader .navbar ul {
+  margin-top: 2rem;
+  display: flex;
+}
+#mainheader .navbar li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+#mainheader .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#showcase {
+  background: url("/img/showcase-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#showcase .showcase-content {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15rem;
+}
+#showcase .showcase-content h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+#showcase .showcase-content h1 {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+#showcase .showcase-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+#features .container .features-row .flexbox-1 .fas {
+  margin-top: 1rem;
+  color: rgb(1, 136, 77);
+}
+#features .container .features-row .flexbox-1 p {
+  line-height: 30px;
+}
+#features .container .features-row .flexbox-1 .flexbox-1-content .fas, #features .container .features-row .flexbox-1 .flexbox-3-content .fas {
+  width: 150px;
+}
+#features .container .features-row .flexbox-1 .flexbox-1-content h2, #features .container .features-row .flexbox-1 .flexbox-1-content p, #features .container .features-row .flexbox-1 .flexbox-3-content h2, #features .container .features-row .flexbox-1 .flexbox-3-content p {
+  text-align: right;
+}
+#features .container .features-row .flexbox-1 .flexbox-2-content .fas, #features .container .features-row .flexbox-1 .flexbox-4-content .fas {
+  width: 150px;
+}
+#features .container .features-row .flexbox-1 .flexbox-2-content h2, #features .container .features-row .flexbox-1 .flexbox-2-content p, #features .container .features-row .flexbox-1 .flexbox-4-content h2, #features .container .features-row .flexbox-1 .flexbox-4-content p {
+  text-align: left;
+}
+
+#middle-banner {
+  margin: 3rem 0;
+}
+#middle-banner .middle-banner-flex {
+  color: #fff;
+  padding: 3rem 3rem;
+  gap: 400px;
+}
+#middle-banner .middle-banner-flex .end-button {
+  justify-content: end;
+  text-align: end;
+}
+
+#about {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+#about .container .about-flex img {
+  width: 50%;
+}
+#about .container .about-flex p {
+  line-height: 30px;
+}
+
+#contact {
+  width: 70%;
+  margin: 0 auto;
+}
+#contact .flexbox {
+  flex: 1;
+}
+
+#footer {
+  text-align: center;
+  padding: 2rem 0 3rem 0;
+  background: #000;
+}/*# sourceMappingURL=styles.css.map */

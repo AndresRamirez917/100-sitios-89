@@ -1,1 +1,75 @@
-/*# sourceMappingURL=mobile.css.map */
+#mainheader .navbar .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+#mainheader .navbar ul {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#mainheader .navbar ul li {
+  text-align: center;
+  display: inline;
+}
+#mainheader .navbar .container {
+  display: block;
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  display: block;
+  margin-top: 0;
+  padding-top: 3rem;
+}
+#showcase .showcase-content h3 {
+  font-size: 2rem;
+}
+#showcase .showcase-content h1 {
+  font-size: 3rem;
+}
+#showcase .showcase-content p {
+  margin-bottom: 7rem;
+}
+#showcase .showcase-content a {
+  display: block;
+  margin: 0 auto;
+}
+
+#features .container .features-row {
+  display: block;
+}
+#features .container .features-row .flexbox-1 .flexbox-1-content, #features .container .features-row .flexbox-1 .flexbox-2-content, #features .container .features-row .flexbox-1 .flexbox-3-content, #features .container .features-row .flexbox-1 .flexbox-4-content {
+  display: block;
+  margin: 0;
+  text-align: center;
+}
+#features .container .features-row .flexbox-1 .flexbox-1-content h2, #features .container .features-row .flexbox-1 .flexbox-1-content p, #features .container .features-row .flexbox-1 .flexbox-2-content h2, #features .container .features-row .flexbox-1 .flexbox-2-content p, #features .container .features-row .flexbox-1 .flexbox-3-content h2, #features .container .features-row .flexbox-1 .flexbox-3-content p, #features .container .features-row .flexbox-1 .flexbox-4-content h2, #features .container .features-row .flexbox-1 .flexbox-4-content p {
+  text-align: justify;
+}
+
+#middle-banner .middle-banner-flex {
+  display: block;
+  margin: 0 auto;
+}
+#middle-banner .middle-banner-flex h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+#middle-banner .middle-banner-flex a {
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#about .container .about-flex {
+  display: block;
+}
+#about .container .about-flex img {
+  width: 100%;
+}
+#about .container .about-flex p {
+  text-align: justify;
+}/*# sourceMappingURL=mobile.css.map */
